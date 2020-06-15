@@ -39,7 +39,7 @@ const Popup = ({ callback }) => {
         size="large"
         onClick={handleClickOpen}
       >
-        SUBSCRIBE
+        DONATE
       </Button>
       <Dialog
         open={open}
@@ -47,12 +47,12 @@ const Popup = ({ callback }) => {
         aria-labelledby="form-dialog-title"
       >
         <DialogTitle id="form-dialog-title">
-          <Box letterSpacing={"0.15em"}>SUBSCRIBE</Box>
+          <Box letterSpacing={"0.15em"}>DONATE</Box>
         </DialogTitle>
         <DialogContent>
           <DialogContentText>
-            To subscribe to this website, please enter your email address here.
-            We will send updates occasionally.
+            To donate to this website, please enter your email address here. We
+            will send updates occasionally.
           </DialogContentText>
           <TextField
             autoFocus

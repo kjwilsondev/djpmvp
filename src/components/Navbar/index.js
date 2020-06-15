@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles.css";
 import Logo from "../Logo";
+import djplogo from "../../logo.png";
 import MobileNavbar from "./components/MobileNavbar";
 import WebNavbar from "./components/WebNavbar";
 
@@ -33,7 +34,7 @@ class Navbar extends React.Component {
     return (
       <div>
         <div className="navbar-logo">
-          <Logo />
+          <Logo picture={djplogo} />
         </div>
         {this.state.width < 450 ? <MobileNavbar /> : <WebNavbar />}
       </div>

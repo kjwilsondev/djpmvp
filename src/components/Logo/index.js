@@ -4,15 +4,9 @@ import "./styles.css";
 class Logo extends Component {
   render() {
     console.log("instantiated Logo render");
-    // const { picture } = this.props;
+    const { picture } = this.props;
 
-    return (
-      <img
-        src="https://djp-site.s3-us-west-1.amazonaws.com/horizons-logo-v2.png"
-        alt="DJ Project"
-        className="logo"
-      />
-    );
+    return <img src={picture} alt="DJ Project" className="logo" />;
   }
 }
 
