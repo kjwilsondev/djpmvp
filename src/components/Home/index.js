@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Logo from "../Logo";
 import "./styles.css";
-import girlSing from "../../girl_sing.jpg";
 import Carousel from "./components/Carousel";
 import Post from "../../components/Post";
 import Popup from "../../components/Popup";

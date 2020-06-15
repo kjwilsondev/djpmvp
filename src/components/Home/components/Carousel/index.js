@@ -70,25 +70,25 @@ class Carousel extends React.Component {
       <div className="carousel">
         <div className="carousel-cell">
           <img
-            src="https://keen-site.s3.us-east-2.amazonaws.com/houseparty.jpg"
+            src="https://djp-site.s3-us-west-1.amazonaws.com/djroom.jpg"
             alt="houseParty"
           />
         </div>
         <div className="carousel-cell">
           <img
-            src="https://keen-site.s3.us-east-2.amazonaws.com/girl_sing.jpg"
+            src="https://djp-site.s3-us-west-1.amazonaws.com/studiosetup.jpg"
             alt="girlSings"
           />
         </div>
         <div className="carousel-cell">
           <img
-            src="https://keen-site.s3.us-east-2.amazonaws.com/missuricrop.jpg"
+            src="https://djp-site.s3-us-west-1.amazonaws.com/studioroom.jpg"
             alt="missuri"
           />
         </div>
         <div className="carousel-cell">
           <img
-            src="https://keen-site.s3.us-east-2.amazonaws.com/rap.jpg"
+            src="https://djp-site.s3-us-west-1.amazonaws.com/crew.png"
             alt="rap"
           />
         </div>

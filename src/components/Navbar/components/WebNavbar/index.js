@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 // import Logo from "../../../Logo";
 import "./styles.css";
-import keenLogo from "../../../../keen_logo.png";
 
 class Navbar extends Component {
   render() {

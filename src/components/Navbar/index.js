@@ -1,7 +1,6 @@
 import React from "react";
 import "./styles.css";
 import Logo from "../Logo";
-import keenLogo from "../../keen_logo.png";
 import MobileNavbar from "./components/MobileNavbar";
 import WebNavbar from "./components/WebNavbar";
 
@@ -34,7 +33,7 @@ class Navbar extends React.Component {
     return (
       <div>
         <div className="navbar-logo">
-          <Logo picture={keenLogo} />
+          <Logo />
         </div>
         {this.state.width < 450 ? <MobileNavbar /> : <WebNavbar />}
       </div>
