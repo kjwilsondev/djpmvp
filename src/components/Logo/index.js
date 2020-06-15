@@ -8,7 +8,7 @@ class Logo extends Component {
 
     return (
       <img
-        src="https://djp-site.s3-us-west-1.amazonaws.com/horizons-logo-v1.png"
+        src="https://djp-site.s3-us-west-1.amazonaws.com/horizons-logo-v2.png"
         alt="DJ Project"
         className="logo"
       />
