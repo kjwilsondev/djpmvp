@@ -1,0 +1,48 @@
+/* external css: flickity.css */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.carousel {
+  background: #eee;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.carousel-cell {
+  margin-right: 20px;
+  overflow: hidden;
+}
+
+.carousel-cell img {
+  display: block;
+  height: 200px;
+  overflow: hidden;
+}
+
+.flickity-button {
+  display: none;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  margin: 2vw;
+  padding: 10px;
+  margin-bottom: 0;
+}
+
+.icon {
+  color: var(--color-black);
+  margin: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .carousel-cell img {
+    height: 400px;
+  }
+}
